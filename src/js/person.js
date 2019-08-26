@@ -4,9 +4,9 @@ function Person(attr) {
     this.weight = attr.weight;
     this.height = attr.height;
     this.calculate_bmi = function() {
-        this.bmiValue = "26.01";
-        this.bmiMessage = "Overweight"
-    }
+        calculator = new BMICalculator();
+        calculator.metric_bmi(this)    
+    };
 };
 
 if (typeof module !== 'undefined' && module.exports) {
