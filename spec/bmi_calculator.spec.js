@@ -1,5 +1,5 @@
 // spec/bmi_calculator_spec.js
-require('./spec.helper')
+require('../spec.helper')
 
 describe('BMICalculator', () => {
     let bmi_calculator
