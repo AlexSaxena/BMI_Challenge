@@ -17,7 +17,7 @@ it("should have height of 186", () => {
 
 it("should calculate BMI value", () => {
     person.calculate_bmi();
-    expect(person.bmiValue).to.equal("26.01")
+    expect(person.bmiValue).to.equal(26.01)
 });
 
 it("should give BMI message", () => {
