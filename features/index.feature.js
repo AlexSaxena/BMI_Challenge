@@ -26,7 +26,7 @@ describe('User can calculate BMI with Metric system', () => {
 
         await browser.clickOnButton("button")
         let content = await browser.getContent("span[id='display_value']")
-        expect(content).to.eql('Your BMI is 27.76');
+        expect(content).to.eql(`Your BMI is 27.76`);
     });
 });
 
