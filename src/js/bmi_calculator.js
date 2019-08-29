@@ -11,6 +11,7 @@ function BMICalculator(){
           setBMIMessage(obj);
         }
       };
+
       //Imperial BMI Calculator
       BMICalculator.prototype.imperial_bmi = function(obj) {
         let weight = obj.weight;
@@ -21,7 +22,6 @@ function BMICalculator(){
             setBMIMessage(obj);
         }
       };
-
 
       function setBMIMessage (obj){
         if (obj.bmiValue < 18.5) {

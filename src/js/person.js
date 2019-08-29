@@ -9,6 +9,12 @@ function Person(attr) {
     };
 };
 
+//Imperial
+Person.prototype.calculate_imperial_bmi  = function() {
+    calculator = new BMICalculator();
+    calculator.imperial_bmi(this);
+};
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = Person;
 }
