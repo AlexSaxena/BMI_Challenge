@@ -1,0 +1,34 @@
+/* Css for the BMI Calculator */
+
+body {
+background-color: lightgrey;
+}
+
+#container {
+background-color: antiquewhite;
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#header {
+background-color: lightskyblue;
+color: white;
+text-align: center;
+}
+
+#calculate {
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#metric-inputs {
+    padding: 10px;
+}
+
+#imperial-inputs {
+    padding: 10px;
+}
